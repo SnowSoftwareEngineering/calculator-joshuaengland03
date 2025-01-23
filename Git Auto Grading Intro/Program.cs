@@ -8,29 +8,33 @@
 
             // Call the methods here ex.
             int result = Add(2, 3);
+            int result2 = Subtract(2, 3);
+            int result3 = Multiply(2, 3);
             Console.WriteLine("The result of adding 2 and 3 is: " + result);
+            Console.WriteLine("The result of subtracting 2 and 3 is: " + result2);
+            Console.WriteLine("The result of multiplying 2 and 3 is: " + result3);
         }
 
-        // Methods Here
+
         public static int Add(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            int result = a + b;
+            return result;
         }
         public static int Subtract(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            int result = a - b;
+            return result;
         }
         public static int Multiply(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            int result = a * b;
+            return result;
         }
         public static decimal Divide(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            int result = a / b;
+            return result;
         }
     }
 }
